@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Todo List</h1>
+        <div class="status-container">
+            <div class="status-card" id="backlog">
+                <h2>Backlog</h2>
+                <ul id="backlog-list"></ul>
+            </div>
+            <div class="status-card" id="todo">
+                <h2>To Do</h2>
+                <ul id="todo-list"></ul>
+            </div>
+            <div class="status-card" id="ongoing">
+                <h2>Ongoing</h2>
+                <ul id="ongoing-list"></ul>
+            </div>
+            <div class="status-card" id="done">
+                <h2>Done</h2>
+                <ul id="done-list"></ul>
+            </div>
+        </div>
+        <input type="text" id="newTodo" placeholder="Add a new todo">
+        <button id="addTodoButton">Add Todo</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
